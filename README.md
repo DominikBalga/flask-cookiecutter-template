@@ -37,20 +37,19 @@ To create a new Flask project using this template, follow these steps:
    cd your-flask-project
    ```
 
-6. Create and activate a virtual environment for your project (recommended):
+6. Install Poetry: Ensure that you have Poetry installed on your system. If not, you can install it using pip:
+
+   ```bash
+   pip install poetry
+   ```
+
+7. Create and activate a virtual environment for your project (recommended) + install dependencies:
 
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+   pip install poetry
    ```
-
-**
-7. Install the project dependencies listed in :
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-    - [ ] TODO adjust this to pyproject.toml
 
 8. Customize the Flask application inside the project directory according to your requirements. You can define routes, templates, and add functionality as needed.
 
@@ -82,4 +81,3 @@ This template is released under the MIT License. See the [LICENSE](LICENSE.txt) 
 _______________________________
 
 - [ ] TODO config.py??
-- [ ] TODO pyproject.toml instead of requirements.txt

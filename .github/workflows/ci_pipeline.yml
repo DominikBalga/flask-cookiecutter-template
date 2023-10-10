@@ -1,0 +1,19 @@
+name: Test Cookiecutter
+
+on:
+  push:
+    branches:
+      - main
+  pull_requests:
+    branches:
+      - main
+  workflow_dispatch:
+    branches:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V4 actions
+        uses: actions/checkout@v4

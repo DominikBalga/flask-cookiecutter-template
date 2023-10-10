@@ -1,4 +1,4 @@
-# Welcom in {{cookiecutter.project_name}} project!
+# Welcome in {{cookiecutter.project_name}} project!
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)

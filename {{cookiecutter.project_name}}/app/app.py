@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, World! This is {{cokiecutter.project_name}} - your own Flask app."
+    return "Hello, World! This is {{cookiecutter.project_name}} - your own Flask app."
 
 if __name__ == "__main__":
     app.run(debug=True)

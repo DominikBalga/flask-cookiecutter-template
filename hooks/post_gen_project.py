@@ -21,6 +21,6 @@ if __name__ == "__main__":
         print("%s is not a valid Python project name" %project_name)
         sys.exit(1)
     logo_img_url = "{{cookiecutter.logo_img_url}}"
-    static_folder = "{{cookiecutter.project_name}}/static/images"
-    if logo_img_url.lower() == "n" or logo_img_url.lower() == "no":
+    static_folder = "{{cookiecutter.project_name}}/app/static/images"
+    if logo_img_url.lower() != "n" or logo_img_url.lower() != "no":
         download_image(logo_img_url, static_folder)

@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 .copyright_footer{
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -11,4 +16,19 @@
     width: 60px;
     background-color: #7c4dff;
     height: 2px;
+}
+
+.bg-navbar{
+    background-color: #1c2331;
+}
+
+.intro-item{
+    text-align: center;
+    background-color: #1c2331;
+    color: white;
+    padding-bottom: 20px;
+}
+
+div.my-5{
+    margin: 0px !important;
 }
